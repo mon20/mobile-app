@@ -2,5 +2,19 @@
     <string name="app_name">mobileform</string>
     <string name="name">nombre completo</string>
     <string name="date">fecha nacimiento</string>
-
+    <string name="phone">teléfono</string>
+    <string name="email">email</string>
+    <string name="description">descripción contacto</string>
+    <string name="next">siguiente</string>
+    <string name="titleDetail">Confirmar Datos</string>
+    <string name="paramName">name</string>
+    <string name="paramDate">date</string>
+    <string name="paramEmail">email</string>
+    <string name="paramPhone">phone</string>
+    <string name="paramDescription">description</string>
+    <string name="nombre">nombre</string>
+    <string name="fecha">fecha</string>
+    <string name="descripcion">descripcion</string>
+    <string name="correo">email</string>
+    <string name="telefono">telefono</string>
 </resources>
