@@ -8,11 +8,13 @@
 
     <TextView
         android:id="@+id/title_detail"
-        android:layout_width="126dp"
+        style="@style/TextAppearance.MaterialComponents.Headline2"
+        android:layout_width="wrap_content"
         android:layout_height="31dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="@string/titleDetail"
+        android:textSize="@dimen/textSizeTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,7 +28,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="60dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@id/title_detail"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,29 +40,50 @@
         <TextView
             android:id="@+id/textViewName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:textSize="@dimen/texSizeDetail"
+            android:layout_height="@dimen/viewSizeDetail"
             android:text="@string/nombre" />
+
         <TextView
             android:id="@+id/textViewDate"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:textSize="@dimen/texSizeDetail"
+            android:layout_height="@dimen/viewSizeDetail"
             android:text="@string/fecha" />
+
         <TextView
             android:id="@+id/textViewEmail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:textSize="@dimen/texSizeDetail"
+            android:layout_height="@dimen/viewSizeDetail"
             android:text="@string/correo" />
+
         <TextView
             android:id="@+id/textViewPhone"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:textSize="@dimen/texSizeDetail"
+            android:layout_height="@dimen/viewSizeDetail"
             android:text="@string/phone" />
+
         <TextView
             android:id="@+id/textViewDescripcion"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/viewSizeDetail"
+            android:textSize="@dimen/texSizeDetail"
             android:text="@string/descripcion" />
 
     </LinearLayout>
+    <Button
+        android:id="@+id/edit_btn"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="164dp"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

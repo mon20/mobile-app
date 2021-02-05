@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">mobileform</string>
+    <string name="app_name">Formulario</string>
     <string name="name">nombre completo</string>
     <string name="date">fecha nacimiento</string>
     <string name="phone">teléfono</string>
@@ -17,4 +17,5 @@
     <string name="descripcion">descripcion</string>
     <string name="correo">email</string>
     <string name="telefono">telefono</string>
+    <string name="edit">editar datos</string>
 </resources>
