@@ -41,11 +41,7 @@ public class DetailForm extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-            /*intent.putExtra(getResources().getString(R.string.paramName), nombre.getText().toString() );
-            intent.putExtra(getResources().getString(R.string.paramDate), selectedDate.getText().toString() );
-            intent.putExtra(getResources().getString(R.string.paramDate), email.getText().toString() );
-            intent.putExtra(getResources().getString(R.string.paramPhone), telefono.getText().toString() );
-            intent.putExtra(getResources().getString(R.string.paramDescription), descripcion.getText().toString() );*/
+                intent.setFlags(intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 startActivity(intent);
             }
         });

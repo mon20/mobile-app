@@ -3,6 +3,6 @@
     <dimen name="date_field">80dp</dimen>
     <dimen name="viewSizeDetail">40dp</dimen>
     <dimen name="textSizeTitle">22sp</dimen>
-    <dimen name="texSizeDetail">22dp</dimen>
+    <dimen name="texSizeDetail">22sp</dimen>
 
 </resources>
