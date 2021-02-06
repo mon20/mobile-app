@@ -19,8 +19,8 @@ public class DetailForm extends AppCompatActivity {
 
         String nombre = parameters.getString(getResources().getString(R.string.paramName));
         String date = parameters.getString(getResources().getString(R.string.paramDate));
-        String email = parameters.getString(getResources().getString(R.string.paramDate));
-        String phone = parameters.getString(getResources().getString(R.string.paramEmail));
+        String email = parameters.getString(getResources().getString(R.string.paramEmail));
+        String phone = parameters.getString(getResources().getString(R.string.paramPhone));
         String descripcion = parameters.getString(getResources().getString(R.string.paramDescription));
 
         TextView tvNombre = (TextView) findViewById(R.id.textViewName);
