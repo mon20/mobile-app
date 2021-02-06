@@ -50,6 +50,7 @@
             android:layout_below="@id/text_input_layout_name"
             android:layout_marginTop="16dp"
             android:inputType="none"
+            android:enabled="false"
             tools:layout_editor_absoluteX="8dp" />
 
     </com.google.android.material.textfield.TextInputLayout>

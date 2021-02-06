@@ -68,7 +68,7 @@
         <TextView
             android:id="@+id/textViewDescripcion"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/viewSizeDetail"
+            android:layout_height="wrap_content"
             android:textSize="@dimen/texSizeDetail"
             android:text="@string/descripcion" />
 
