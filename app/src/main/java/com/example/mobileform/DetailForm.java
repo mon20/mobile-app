@@ -35,7 +35,7 @@ public class DetailForm extends AppCompatActivity {
         tvPhone.setText(phone);
         tvDescription.setText(descripcion);
 
-        btnEdit.findViewById(R.id.edit_btn);
+        btnEdit= (Button) findViewById(R.id.edit_btn);
         Intent intent = new Intent(this, MainActivity.class);
         btnEdit.setOnClickListener(new View.OnClickListener() {
 
